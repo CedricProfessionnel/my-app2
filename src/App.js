@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Component1 from "./components/1"
+import Component2 from "./components/2"
+import AzureButton from "./components/AzureButton"
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
         >
           Learn React
         </a>
+        <Component1></Component1>
+        <Component2/>
+        <AzureButton/>
       </header>
     </div>
   );
